@@ -6,7 +6,7 @@ const Bookmanage = (props) => {
     const {name,price,author ,_id} = props.books;
     const history = useHistory()
     const handleDelete = id => {
-        fetch(`https://agile-tundra-84826.herokuapp.com/delete/${id}`,{
+        fetch(`https://boighor.herokuapp.com//delete/${id}`,{
             method:"DELETE",
         })
         .then(res => res.json())

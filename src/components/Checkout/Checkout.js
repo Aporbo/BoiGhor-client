@@ -13,7 +13,7 @@ const Checkout = () => {
     }
     const { name, price, quantity } = book;
     useEffect(() => {
-        fetch('https://agile-tundra-84826.herokuapp.com/book/' + id)
+        fetch('https://boighor.herokuapp.com//book/' + id)
             .then(res => res.json())
             .then(data => setBook(data))
     }, [id])

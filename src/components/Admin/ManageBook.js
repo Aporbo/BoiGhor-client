@@ -6,7 +6,7 @@ const ManageBook = () => {
     const [spinner,setSpinner] = useState(true);
 
     useEffect(() => {
-        fetch('https://agile-tundra-84826.herokuapp.com/books')
+        fetch('https://boighor.herokuapp.com//books')
             .then(res => res.json())
             .then(data => {
                  setManageBook(data)
