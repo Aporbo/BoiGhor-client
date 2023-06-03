@@ -1,6 +1,9 @@
 {
   "name": "BoiGhor",
   "version": "0.1.0",
+  "engines": { 
+   "node": "18.15.0" 
+ } ,
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
