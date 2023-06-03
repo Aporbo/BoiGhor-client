@@ -20,5 +20,5 @@ Here is the Live site link [BoiGhor  live site ](https://boighor-da35b.web.app/)
 - Express JS
 - MongoDB
 
-You can see server side code in [BoiGhor Server]https://github.com/Aporbo/BoiGhor-server)
+You can see server side code in [BoiGhor Server]https://github.com/Aporbo/BoiGhor-server
 # BoiGhor-client
