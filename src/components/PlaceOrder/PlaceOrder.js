@@ -24,7 +24,7 @@ const PlaceOrder = () => {
             orders: order,
             date: new Date()
         }
-       fetch('https://boighor.herokuapp.com/placeOrder',{
+       fetch('https://agile-tundra-84826.herokuapp.com/placeOrder',{
            method:'POST',
            headers: {'Content-Type' : 'application/json'},
            body: JSON.stringify(orders)
