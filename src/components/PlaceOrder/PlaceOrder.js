@@ -11,7 +11,7 @@ const PlaceOrder = () => {
     const {ids} = useParams(); 
     const [order,setOrder] = useState([])
     useEffect(()=>{
-        fetch('https://agile-tundra-84826.herokuapp.com/book/' + ids)
+        fetch('https://boighor.herokuapp.com/book/' + ids)
         .then(res => res.json())
         .then(data => setOrder(data))
     },[])
@@ -24,7 +24,7 @@ const PlaceOrder = () => {
             orders: order,
             date: new Date()
         }
-       fetch('https://agile-tundra-84826.herokuapp.com/placeOrder',{
+       fetch('https://boighor.herokuapp.com/placeOrder',{
            method:'POST',
            headers: {'Content-Type' : 'application/json'},
            body: JSON.stringify(orders)

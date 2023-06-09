@@ -33,7 +33,7 @@ const AddBook = () => {
                 quantity:1
             }
            if(imageURL){
-            fetch('https://agile-tundra-84826.herokuapp.com/admin/AddBook',{
+            fetch('https://boighor.herokuapp.com/admin/AddBook',{
                 method:'POST',
                 headers:{"Content-Type": "application/json"},
                 body: JSON.stringify(books)

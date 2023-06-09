@@ -8,7 +8,7 @@ const Orders = () => {
     const [userOrder,setUSerOrder] = useState([]);
     const [spinner,setSpinner] = useState(true);
     useEffect(()=>{
-        fetch('https://agile-tundra-84826.herokuapp.com/getOrders?email=' + logInUser.email)
+        fetch('https://boighor.herokuapp.com/getOrders?email=' + logInUser.email)
         .then(res => res.json())
         .then(data => {
             setUSerOrder(data)
